@@ -1,0 +1,44 @@
+/* PostList.css */
+
+.post-list {
+    padding: 20px;
+}
+
+.post-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative; /* For positioning the delete button */
+}
+
+.post-item h3 {
+    margin: 0;
+}
+
+.post-item p {
+    color: #666;
+}
+
+.post-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.delete-button {
+    position: absolute; /* Position the delete button */
+    right: 15px; /* Align to the right */
+    top: 15px; /* Align to the top */
+    background-color: #591010; /* Red background for delete button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.delete-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
